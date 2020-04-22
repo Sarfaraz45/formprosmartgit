@@ -1,0 +1,80 @@
+<!doctype html>
+<html>
+<head> 
+<title> Form Element</title>
+
+</head>
+
+
+<body>
+<form action="http://wwww.example.com/login.php" method="post">
+<fieldset>
+
+<legend> Personal Information</legend>
+<p> First Name:
+<input type="text" name="firstName" size="15" maxlength="30" required/>
+LastName:
+<input type="text" name="lastname" size="15" maxlength="30"/>
+</p>
+<p>
+Gender:
+<label for="male">Male</label>
+<input id="male" type="radio" name="gender" value="m">
+<label><input type="radio" name="gender" value="f"checked>Female</label>
+
+</p>
+<p>
+Date Of Birth:
+<input type="date" name="dob">
+
+</p>
+<p>Enter your email Address:
+<br>
+<input type="email" name="email">
+</p>
+<p>Input your Website:
+
+<input type="url" name="website">
+</p>
+<p>
+Natinality:
+<select name="countries" multiple>
+<option value="pakistan"> Pakistan</option>
+<option value="usa"> USA</option>
+<option value="china"> cHINA</option>
+<option value="canada"> cANADA</option>
+</select>
+</p>
+<p>
+Password:
+<input type="password" name="password" size="15" maxlength="30"/>
+Re-enter Password:
+<input type="password" name="password" size="15" maxlength="30"/>
+</p>
+
+</fieldset>
+<p>Interests:
+<input type="checkbox" name="interest" value="mc"/>Men's Clothing
+<input type="checkbox" name="interest" value="wc"/>Women's Clothing
+<input type="checkbox" name="interest" value="elc"/>Electronics
+<input type="checkbox" name="interest" value="cw"/>Children's Clothing 
+</p>
+
+<p>
+Comments:
+</p>
+<textarea name="comments" rows="4" cols="30"> Enter your comments...</textarea>
+
+<p>
+Upload a Picture:</p>
+<input type="file" name="db" /> <br />
+<input type="submit" value="upload"/>
+
+<input type="submit" />
+
+<br />
+<br />
+
+<input type="image" src ="C:\Users\sarfaraz\Downloads\25387-5-submit-button-clipart-thumb.png" width="150">
+</body>
+</html>
